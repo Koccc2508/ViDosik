@@ -1,0 +1,85 @@
+*,
+*::before{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+ .home{
+    width: 100vw;
+    max-height: 100vw;
+    background: url(..//img/1612800544_101-p-golubaya-laguna-fon-197.jpg) center/cover no-repeat;
+    position: relative;
+    overflow: hidden;
+
+ }
+
+ .home::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+ }
+
+
+
+ .home_Video{
+    padding-bottom: 56.25%;
+ }
+  .home video{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+  }
+  .home_content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(235, 235, 243);
+    z-index: 3;
+    font-family: sans-serif;
+
+  }
+  .home_content h1{
+    font-size: 5vw;
+    margin: 0 0 15px ;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: center;
+
+  }
+
+  .home_content p {
+    text-align: center;
+    font-size: 2vw;
+  }
+  /* audio{
+    position: absolute;
+    top: ;
+    left: 0;
+   
+  } */
+  .Text-Napolnenie{
+    background-color: #f3abab;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .Text-Napolnenie p {
+    margin: 0 0 10px 0  ;
+  }
